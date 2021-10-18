@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks  = 'CallingComposite.framework'
   spec.frameworks           = 'UIKit', 'SwiftUI'
   spec.dependency             'AzureCommunicationCalling', '2.0.1-beta.1'
-  spec.dependency             'MicrosoftFluentUI', '0.3.3'
+  spec.dependency             'MicrosoftFluentUI', '0.3.5'
 end
