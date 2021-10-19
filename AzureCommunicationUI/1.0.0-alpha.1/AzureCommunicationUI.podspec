@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage             = "https://github.com/Azure/communication-ui-toolkit-ios-pr"
   spec.license              = { :type => 'MIT' }
   spec.author               = 'Microsoft'
-  spec.source               = { :http => 'https://uilibraryprivatepreview.blob.core.windows.net/uilibraryprivatepreviewrelease/CallingComposite-1.0.0-alpha.1.zip' }
+  spec.source               = { :http => 'https://github.com/Azure/Communication/releases/download/AzureCommunicationUI-v1.0.0-alpha.1/AzureCommunicationUI-1.0.0-alpha.1.zip' }
   spec.module_name          = 'CallingComposite'
   spec.swift_version        = '5.0'
   spec.pod_target_xcconfig  = { "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64" }
